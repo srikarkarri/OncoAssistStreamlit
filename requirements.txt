@@ -1,0 +1,4 @@
+plotly
+torch
+reportlab
+openai
