@@ -3,4 +3,4 @@ torch
 reportlab
 openai
 torch_geometric
-sklearn
+sklearn.preprocessing
