@@ -6,10 +6,10 @@ from torch_geometric.data import Data, DataLoader
 import pandas as pd
 import numpy as np
 import pickle
-from scikit-learn.preprocessing import StandardScaler, LabelEncoder
-from scikit-learn.model_selection import train_test_split, StratifiedKFold
-from scikit-learn.metrics import accuracy_score, classification_report
-from scikit-learn.linear_model import LassoCV, Lasso
+from sklearn.preprocessing import StandardScaler, LabelEncoder
+from sklearn.model_selection import train_test_split, StratifiedKFold
+from sklearn.metrics import accuracy_score, classification_report
+from sklearn.linear_model import LassoCV, Lasso
 from lifelines.utils import concordance_index
 import matplotlib.pyplot as plt
 import seaborn as sns
